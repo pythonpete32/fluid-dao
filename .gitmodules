@@ -16,3 +16,6 @@
 [submodule "contracts/lib/osx"]
 	path = contracts/lib/osx
 	url = https://github.com/aragon/osx
+[submodule "contracts/lib/protocol-monorepo"]
+	path = contracts/lib/protocol-monorepo
+	url = https://github.com/superfluid-finance/protocol-monorepo
