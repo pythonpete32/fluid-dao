@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Layout } from "~/app/_components/layout";
+import { AppLayout } from "~/app/_components/app-layout";
 
 import "./globals.css";
 import "@rainbow-me/rainbowkit/styles.css";
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Layout>{children}</Layout>
+        <AppLayout>{children}</AppLayout>
       </body>
     </html>
   );

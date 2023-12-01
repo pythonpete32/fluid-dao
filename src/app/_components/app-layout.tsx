@@ -5,7 +5,7 @@ import Providers from "~/app/_components/providers";
 import { MainView } from "./main-view";
 import { SideNav } from "./side-nav";
 
-export const Layout = ({ children }: { children: ReactNode }) => {
+export const AppLayout = ({ children }: { children: ReactNode }) => {
   return (
     <Providers>
       <div className="mx-auto flex flex-grow">
