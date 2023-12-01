@@ -13,3 +13,6 @@
 [submodule "contracts/lib/ens-contracts"]
 	path = contracts/lib/ens-contracts
 	url = https://github.com/ensdomains/ens-contracts
+[submodule "contracts/lib/osx"]
+	path = contracts/lib/osx
+	url = https://github.com/aragon/osx
