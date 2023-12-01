@@ -1,2 +1,4 @@
 "use client";
-export { ConnectButton } from "@rainbow-me/rainbowkit";
+export const ConnectButton = () => {
+  return <w3m-button />;
+};

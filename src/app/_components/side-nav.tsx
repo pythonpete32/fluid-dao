@@ -50,7 +50,7 @@ export const SideNav = () => {
         ))}
       </ul>
       <div className="mx-auto">
-        <ConnectButton chainStatus={"icon"} accountStatus="avatar" />
+        <w3m-button size="sm" />
       </div>
     </div>
   );
